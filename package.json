@@ -1,0 +1,49 @@
+{
+  "name": "isenseflu-chart-embed",
+  "version": "1.0.0",
+  "description": "Chart generator for the i-sense flu website",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint \"src/**/*.js\"",
+    "webpack": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCL/isenseflu-chart-embed.git"
+  },
+  "author": "David Guzman",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/UCL/isenseflu-chart-embed/issues"
+  },
+  "homepage": "https://github.com/UCL/isenseflu-chart-embed#readme",
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "eslintConfig": {
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "rules": {
+    }
+}
+}

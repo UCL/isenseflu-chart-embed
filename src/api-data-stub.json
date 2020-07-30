@@ -1,0 +1,231 @@
+{
+    "model_list": [
+        {
+            "id": 1,
+            "name": "Google v2018.07 (experimental)"
+        },
+        {
+            "id": 2,
+            "name": "Google v2018.04"
+        },
+        {
+            "id": 3,
+            "name": "Google v2019.06"
+        },
+        {
+            "id": 4,
+            "name": "Google v2020.02 (5 clusters)"
+        }
+    ],
+    "rate_thresholds": {
+        "low_value": {
+            "label": "Low epidemic rate",
+            "value": 11.7
+        },
+        "medium_value": {
+            "label": "Medium epidemic rate",
+            "value": 21.3
+        },
+        "high_value": {
+            "label": "High epidemic rate",
+            "value": 55.4
+        },
+        "very_high_value": {
+            "label": "Very high epidemic rate",
+            "value": 84.5
+        }
+    },
+    "model_data": [
+        {
+            "id": 4,
+            "name": "Google v2020.02 (5 clusters)",
+            "average_score": 0.5258236207416874,
+            "has_confidence_interval": true,
+            "start_date": "2020-06-21",
+            "end_date": "2020-07-20",
+            "data_points": [
+                {
+                    "score_date": "2020-07-20",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 4.94050597982074
+                },
+                {
+                    "score_date": "2020-07-19",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 4.92039148966765
+                },
+                {
+                    "score_date": "2020-07-18",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 4.92215955968808
+                },
+                {
+                    "score_date": "2020-07-17",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 5.66196882794453
+                },
+                {
+                    "score_date": "2020-07-16",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 5.49132231027135
+                },
+                {
+                    "score_date": "2020-07-15",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 5.51190061119912
+                },
+                {
+                    "score_date": "2020-07-14",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 5.663941829319
+                },
+                {
+                    "score_date": "2020-07-13",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 5.44048710725479
+                },
+                {
+                    "score_date": "2020-07-12",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 5.03516264761976
+                },
+                {
+                    "score_date": "2020-07-11",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 4.66161784453629
+                },
+                {
+                    "score_date": "2020-07-10",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 2.62963765660797
+                },
+                {
+                    "score_date": "2020-07-09",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 3.03462587018689
+                },
+                {
+                    "score_date": "2020-07-08",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 3.10925711951594
+                },
+                {
+                    "score_date": "2020-07-07",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 4.37450559258091
+                },
+                {
+                    "score_date": "2020-07-06",
+                    "score_value": 0.245569115582293,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 8.63004435006615
+                },
+                {
+                    "score_date": "2020-07-05",
+                    "score_value": 1.35440276903522,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 11.5012978692342
+                },
+                {
+                    "score_date": "2020-07-04",
+                    "score_value": 1.74474753720497,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 12.3438637296094
+                },
+                {
+                    "score_date": "2020-07-03",
+                    "score_value": 2.22253537408915,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 13.1516187477241
+                },
+                {
+                    "score_date": "2020-07-02",
+                    "score_value": 1.62574607665406,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 12.567155050016
+                },
+                {
+                    "score_date": "2020-07-01",
+                    "score_value": 1.74577009271493,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 12.6905803807901
+                },
+                {
+                    "score_date": "2020-06-30",
+                    "score_value": 1.54861653674147,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 11.6404104131607
+                },
+                {
+                    "score_date": "2020-06-29",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 6.94791974396657
+                },
+                {
+                    "score_date": "2020-06-28",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 4.9444260261666
+                },
+                {
+                    "score_date": "2020-06-27",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 5.1649201881829
+                },
+                {
+                    "score_date": "2020-06-26",
+                    "score_value": 0.0,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 6.02276747067489
+                },
+                {
+                    "score_date": "2020-06-25",
+                    "score_value": 0.265666356377287,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 6.63353971095492
+                },
+                {
+                    "score_date": "2020-06-24",
+                    "score_value": 0.360491831508433,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 6.85646443966128
+                },
+                {
+                    "score_date": "2020-06-23",
+                    "score_value": 1.32521440825645,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 7.6509545360085
+                },
+                {
+                    "score_date": "2020-06-22",
+                    "score_value": 1.50457562158835,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 7.69562806189175
+                },
+                {
+                    "score_date": "2020-06-21",
+                    "score_value": 1.83137290249801,
+                    "confidence_interval_lower": 0.0,
+                    "confidence_interval_upper": 8.50709201538827
+                }
+            ]
+        }
+    ]
+}
+
