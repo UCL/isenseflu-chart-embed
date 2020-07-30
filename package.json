@@ -4,7 +4,7 @@
   "description": "Chart generator for the i-sense flu website",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava",
     "eslint": "eslint \"src/**/*.js\"",
     "webpack": "webpack -d --watch"
   },
@@ -22,28 +22,34 @@
     "chart.js": "^2.9.3"
   },
   "devDependencies": {
+    "ava": "^3.11.0",
     "eslint": "^7.5.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "esm": "^3.2.25",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   },
   "eslintConfig": {
     "env": {
-        "browser": true,
-        "es2020": true
+      "browser": true,
+      "es2020": true
     },
     "extends": [
-        "standard"
+      "standard"
     ],
     "parserOptions": {
-        "ecmaVersion": 11,
-        "sourceType": "module"
+      "ecmaVersion": 11,
+      "sourceType": "module"
     },
-    "rules": {
-    }
-}
+    "rules": {}
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  }
 }
