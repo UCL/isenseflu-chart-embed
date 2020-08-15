@@ -6,6 +6,7 @@
   "scripts": {
     "test": "ava",
     "eslint": "eslint \"src/**/*.js\"",
+    "webpack": "webpack -d --define process.env.API_URL=\"'$API_URL'\"",
     "webpack-watch": "webpack -d --define process.env.API_URL=\"'/api'\" --watch",
     "express-server": "node server.mjs",
     "live-test": "npm-run-all -p webpack-watch express-server"
