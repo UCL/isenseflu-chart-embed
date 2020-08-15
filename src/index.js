@@ -1,4 +1,6 @@
 import { generateChart } from './controller'
 
-const ctx = document.getElementById('chart')
-generateChart(ctx)
+document.addEventListener('DOMContentLoaded', (event) => {
+  const ctx = document.getElementById('chart').getContext('2d')
+  generateChart(ctx)
+})
