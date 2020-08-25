@@ -4,7 +4,8 @@ import { processModelData } from './json-adapter'
 const apiUrl = () => {
   let fetchUrl = process.env.API_URL || ''
   fetchUrl += fetchUrl.endsWith('/') ? '' : '/'
-  return fetchUrl
+  const startDate = new Date(Date.now() - 31795200000).toISOString().substring(0, 10)
+  return `${fetchUrl}scores?id=4&startDate=${startDate}`
 }
 
 const callApi = () => {

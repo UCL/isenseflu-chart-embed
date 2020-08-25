@@ -8,7 +8,7 @@ import { generateChart } from './controller'
 import * as apidata from './api-data-stub.json'
 
 test.cb('Creates an instance of Chart from the data returned by the API', t => {
-  fetchMock.mock('/', {
+  fetchMock.mock(/\/scores\?id=4&startDate=\d{4}-\d{2}-\d{2}/, {
     body: JSON.stringify(apidata),
     headers: { 'Content-Type': 'application/json' },
     status: 200
