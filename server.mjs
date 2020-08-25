@@ -12,8 +12,8 @@ server.get('/', (request, response) => {
   response.sendFile(path.join(__dirname, '/index.html'))
 })
 
-server.get('/api', (request, response) => {
-  const jsonPath = path.join(__dirname, 'src/api-data-stub.json')
+server.get('/api/scores', (request, response) => {
+  const jsonPath = path.join(__dirname, 'src/api-data-year-stub.json')
   fs.readFile(jsonPath, 'utf-8', (err, data) => {
     if (err) throw err
     response.send(JSON.parse(data))
